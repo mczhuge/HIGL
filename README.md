@@ -15,7 +15,7 @@ Also, to run the MuJoCo experiments, a license is required (see [here](https://w
 
 ## Applu GPU
 ```
-srun -p batch -t 00:30:00 --gres=gpu:1 --constraint="v100" --cpus-per-task 4 --mem=24G --pty bash -l
+srun -p batch -t 12:30:00 --gres=gpu:1 --constraint="v100" --cpus-per-task 4 --mem=24G --pty bash -l
 ```
 
 ## Usage
