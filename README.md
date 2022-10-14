@@ -13,7 +13,7 @@ conda activate higl
 Also, to run the MuJoCo experiments, a license is required (see [here](https://www.roboti.us/license.html)).
 
 
-## Applu GPU
+## Apply GPU
 ```
 srun -p batch -t 12:00:00 --gres=gpu:1 --constraint="v100" --cpus-per-task 4 --mem=24G --pty bash -l
 ```
